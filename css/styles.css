@@ -11128,3 +11128,20 @@ footer.footer .social-link:hover {
 .servicesText:hover {
   border: 1px solid #008000;
 }
+.programming-languages {
+  display: flex; /* Set the container to use flexbox */
+  /*#flex-wrap: nowrap; /* Prevent wrapping to keep items in a single row */
+  justify-content: space-between; /* Distribute items evenly with space in between */
+  align-items: center; /* Center items vertically */
+  padding: 210px; /* Add some padding for spacing */
+}
+
+.item {
+  text-align: center;
+  margin: 0 30px; /* Add horizontal margin between items */
+}
+
+.cloud-icon {
+  font-size: 50px;
+  text-align: center;
+}
