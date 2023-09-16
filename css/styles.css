@@ -11117,7 +11117,7 @@ footer.footer .social-link:hover {
 .servicesIcon {
   font-size: 36px;
   text-align: center;
-  width: 100%;
+  width: 80%;
 }
 .card-title {
   text-align: center;
@@ -11133,7 +11133,7 @@ footer.footer .social-link:hover {
   /*#flex-wrap: nowrap; /* Prevent wrapping to keep items in a single row */
   justify-content: space-between; /* Distribute items evenly with space in between */
   align-items: center; /* Center items vertically */
-  padding: 210px; /* Add some padding for spacing */
+  padding: 30px; /* Add some padding for spacing */
 }
 
 .item {
@@ -11142,6 +11142,6 @@ footer.footer .social-link:hover {
 }
 
 .cloud-icon {
-  font-size: 50px;
+  font-size: 80px;
   text-align: center;
 }
