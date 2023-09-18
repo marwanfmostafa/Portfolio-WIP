@@ -1,0 +1,599 @@
+:root {
+    --main-bg: #fff;
+    --font-black: #000;
+    --alternate-bg: #F2F2F2;
+    --font-size: 16px;
+    --line-height: 27.2px;
+    --border-radius: 5px;
+    --header-width: 930px;
+}
+
+body {
+    font-family: 'Inter';
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/*allows for scroll to various section of the website*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*hover to visually show when the user is hovered over all photos with an anchor link 
+(for every icon that links githubs/deployed projects*/
+a img:hover {
+    transform:scale(1.1)
+}
+
+/*removes default inline properties that section and div has*/
+section, div {
+    display: inline; /* or inline, inline-block, etc. as needed */
+}
+
+
+
+
+
+
+
+
+
+
+/*NAV BAR*/
+/*Enables justify-space-between to create three sections: left, center, and right on the nav bar*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 90px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*center elements on the same horizontal row*/
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a, nav p a  {
+    color: var(--font-black);
+    text-decoration: none;
+}
+
+/*hoverbeffect to visually show when the user is over the items on the nav bar*/
+nav ul li a:hover, nav p a:hover {
+    font-size: larger;
+}
+
+/*creates border around button*/
+nav p {
+    border: 1px solid #D3D3D3;
+    border-radius: var(--border-radius);
+    padding: 5px
+}
+
+
+
+
+
+
+
+
+
+
+/*TITLE PAGE*/
+/*positioning and sizing the title page correctly*/
+.title {
+    width: 100%;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 48px;
+    text-align: center;
+    height: 80px;
+}
+
+.title p {
+    position: center;
+    height: 100px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*About Me psge*/
+.about-me {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 685px;
+}
+
+.about-me {
+    background-image: url("assets/images/MM_headshot2.png");
+
+}
+
+/*groups all of the headers styling in the same section.*/
+.about-me-header, .experience-header, .projects-header, .contact-header {
+    display: flex;
+    justify-content: center;
+    transform: translateY(120px);
+    width: var(--header-width);
+}
+
+/*creates a line that is vertically centered through my about me header*/
+.about-me-header::after, .experience-header::after, .projects-header::after, .other-projects-header::after, .contact-header::after {
+    content: "";
+    position: absolute;
+    ZZZZwidth: 100%;
+    height: 1px;
+    background-color: var(--font-black);
+    top: 50%;
+}
+
+/*Styling the text of the header, and setting a background*/
+.about-me-header h3, .experience-header h3, .projects-header h3, .other-projects-header h3, .contact-header h3 {
+    z-index: 1;
+    padding: 0 20px;
+    font-size: 36px;
+}
+
+/*setting the background color of the header text for all headers so there is a visual break.*/
+.about-me-header h3, .projects-header h3, .other-projects-header h3{
+    background-color: var(--alternate-bg);
+}
+
+.experience-header h3, .contact-header h3 {
+    background-color: var(--main-bg);
+}
+
+/*styles and positions the image, and text for the about me page*/
+.about-me-container {
+    position: absolute;
+    display: flex;
+    width: var(--header-width);
+    justify-content: space-between;
+    transform: translateY(214px);
+}
+
+.info {
+    width: 551px;
+}
+
+.info p {
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+}
+
+.about-me-image img {
+    border-radius: var(--border-radius);
+    height: 310px;
+    width: 315px;
+}
+
+
+
+
+
+
+
+
+
+
+/*EXPERIENCE PAGE*/
+/*For this section, my strategy was creating multiple box containers, and positioning them within eachother, to style/format it in a unique way*/
+/*This is the container of the entire page, setting the height and properties*/
+.experience {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    background-color: var(--main-bg);
+}
+
+/*This is the initial rectangular container that will hold all the smaller containers for the job title, description, etc, I titled the html in the same fashion,
+so that I could just keep adding the same html format, and another experience container would form, based on the order I have them in in the html, making the process
+very quick to add another experience tab*/
+.experience-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 800px;
+    transform: translateY(150px);
+    width: var(--header-width);
+}
+
+/*as evident by the semantic tag, this is the container that contains the job position, and what company I worked at, on the left hand side of the experience container*/
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    height: 116px;
+    width: 196px;
+}
+
+/*This section of code is styling/positioning the containers and content of the left hand side of the experience container, which includes the 
+header, subheader, which were semantically named*/
+.header-container h3{
+    padding-bottom: 5px;
+    
+}
+
+.header-container header p {
+    font-size: 14px;
+    line-height: var(--line-height);
+}
+
+.experience-subheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 76px;
+    width: 196px;
+    font-size: 14px;
+}
+
+.experience-subheader p {
+    margin-bottom: 25px;
+}
+
+/*This section of code is creating, and styling the container for the list that covers the majority of the experience container on the right hand side*/
+.list-container {
+    position: absolute;
+    width: 800px;
+    border-left: 2px solid black;
+    transform: translateY(-184px) translateX(220px);
+}
+
+.list-container ul {
+    list-style-type: disc;
+    padding-left: 5%;
+    padding-top: 10px;
+    line-height: var(--line-height);
+}
+
+
+
+
+
+
+
+
+
+
+/*PROJECT PAGE - MAIN PROJECT SECTION*/
+/*This section of code is positioning and styling the main featured project, it is the center of attention, so needs its own unique dimenions
+I used a similar strategy to the previous page, creating a container for every unique part of the section, and manipulating the position with those*/
+.projects {
+    background-color: var(--alternate-bg);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1550px;
+}
+
+.projects-container {
+    width: var(--header-width);
+    transform: translateY(170px);
+}
+
+.projects-container img {
+    height: 249px;
+    width: 455px;
+    border-radius: var(--border-radius);
+}
+
+.first-project-description {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    transform: translateX(238px) translateY(215px);
+    height: 166px;
+    width: 455px;
+    
+}
+
+.first-project-description h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    transform:translateX(-5px)
+}
+
+.first-project-description p {
+    line-height: var(--line-height);
+    font-size: var(--font-size);
+    margin-bottom: 10px;
+}
+
+.sub-description  {
+    padding: 10px;
+    padding-left: 0;
+    transform: translateX(56px) translateY(100px)
+
+}
+
+.github-icon img, .link-icon img  {
+    position: relative;
+    height: 25px;
+    width: 25px;
+}
+
+.github-icon img {
+    left: 20px;
+    top: 100px;
+}
+
+.link-icon img {
+    left: 50px;
+    top: 73px;
+}
+
+/*disabling the transform scale on the large image, looks weird*/
+.projects-container img:hover {
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+/*OTHER PROJECTS SECTION*/
+/*This is section is for the other projects header, I didn't group it with the rest of them as I did for other headers, as this one has slightly
+unique properties, due to the fact that it is positioned differently on its parent container 'page'*/
+.other-projects-header {
+    display: flex;
+    justify-content: center;
+    transform: translateY(180px);
+    width: var(--header-width);
+}
+
+/*This is the intended parent container for the first row of 'Other projects'*/
+.row-one-projects-container {
+    display: flex;
+    justify-content: space-between;
+    width: var(--header-width);
+    transform: translateY(230px);
+}
+
+/*This section of code is styling and positioning the parent containers for the individual projects on row one*/
+.other-projects-container {
+    height: 212.5px;
+    width: 445px;
+}
+
+.other-projects-container img {
+    position: relative;
+    height: 95px;
+    width: 95px;
+    border-radius: 0;
+}
+
+/*This section styles and position the other-proects subcontainers and its various elements*/
+.other-projects-subcontainer {
+    position: absolute;
+    height: 93px;
+    width: 335px;
+    transform: translateX(15px);
+    border-bottom: 1px solid black;
+}
+
+.other-projects-subcontainer h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-left: 0;
+    transform: translateX(-2px)
+}
+
+.other-projects-subcontainer p {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 14px;
+    transform: translateX(100px);
+}
+
+/*This code styles and positions the paragraph of the subcontainer that contains the title, this is short description of the project*/
+.other-projects-subcontainer p {
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+    line-height: 23.8px;
+    transform: translateX(0px)
+}
+
+.other-sub-description {
+    padding: 5px;
+    padding-left: 0;
+    width: 120px;
+    transform: translateX(110px);
+}
+
+/*grouped the two icon styles together as they share the same style and positioning*/
+.other-projects-link img, .other-projects-github img {
+    height: 25px;
+    width: 25px;
+    left: 105px;
+}
+
+
+
+
+
+
+
+
+
+
+/*CONTACT PAGE*/
+.contact {
+    background-color: var(--main-bg);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container {
+    height: 50px;
+    transform: translateY(215px);
+}
+
+.contact-container p {
+    padding: 5px;
+    text-align: center;
+    line-height: 27px;
+}
+
+
+.linkedin img, .github img, .gmail img{
+    height: 40px;
+    width: 40px;
+    transform: translateY(0px);
+}
+
+/*these images aren't responding to the universal transformation i put in on the top of the file, this is a temp fix*/
+.linkedin img:hover, .github img:hover, .gmail img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+/*Adapts the screen before the content starts getting cut off, and switches to a new 'mobile' format, fit for ipad and iphone
+front page remains an appropriate size by default*/
+@media screen and (max-width: 992px) {
+    :root {
+        --header-width: none;
+    }
+
+    .title h2{
+        height: 300px;
+    }
+
+    .about-me {
+        height: 1085px;
+    }
+    
+    .about-me-header, .experience-header, .projects-header, .contact-header, .other-projects-header {
+        width: 600px;
+    }
+
+    .about-me-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(214px);
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me-container img {
+        margin-bottom: 50px;
+    }
+    
+    .experience {
+        height: 1400px;
+    }
+    .experience-container {
+        transform: translateY(50px);
+        height: 1300px;
+        width: 600px;
+    }
+
+    .list-container {
+        width: 400px;
+    }
+
+    .list-container ul {
+        font-size: small;
+    }
+
+    .projects-container {
+        transform: translateY(170px) translateX(-175px);
+    }
+
+    .projects-container img {
+        width: 255px;
+    }
+
+    .first-project-description {
+        transform: translateX(52%) translateY(215px);
+        width: 300px;
+    }
+
+    .first-project-description p {
+        font-size: 12px;
+    }
+
+    .row-one-projects-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .other-projects-container {
+        transform: translateY(25px);
+    }
+
+}
+
+/*Switches the title page to better fit for phone size screen widths, all other mobile changes are still usable*/
+@media screen and (max-width: 720px) {
+    
+    nav ul li {
+        display: block;
+        text-align: center;
+        transform: translateY(20px)
+    }
+
+    .title h2 {
+        font-size: 50px;
+    }
+
+}
