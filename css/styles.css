@@ -11123,10 +11123,10 @@ footer.footer .social-link:hover {
   text-align: center;
 }
 .card:hover .servicesIcon {
-  color: ##050505;
+  color: #050505;
 }
 .servicesText:hover {
-  border: 1px solid #008000;
+  border: 1px solid #006980;
 }
 .programming-languages {
   display: flex; /* Set the container to use flexbox */
