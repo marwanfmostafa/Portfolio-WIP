@@ -11044,7 +11044,7 @@ footer.footer .social-link:hover {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(240, 240, 240, 0.2);
+  /*background-color: rgba(0, 0 ,0, 0.1);*/
   position: absolute;
   top: 0;
   bottom: 0;
@@ -11087,14 +11087,14 @@ footer.footer .social-link:hover {
     -webkit-clip-path: inset(-1px);
             clip-path: inset(-1px);
   }
-  .portfolio-item:hover img {
+  /*.portfolio-item:hover img {
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
     background-color: rgba(255,255,255 0.7);
     -webkit-clip-path: inset(2rem);
-            clip-path: inset(2rem);
+            clip-path: inset(2rem);*/
   }
 }
 
