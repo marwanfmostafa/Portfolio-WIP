@@ -11094,7 +11094,7 @@ footer.footer .social-link:hover {
   .portfolio-item:hover .caption {
     background-color: rgba(255,255,255 0.7);
     -webkit-clip-path: inset(2rem);
-            clip-path: inset(2rem);*/
+            clip-path: inset(2rem);;*/
   }
 }
 
