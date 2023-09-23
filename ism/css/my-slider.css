@@ -532,11 +532,11 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-slide-0 .ism-caption-0 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 10%;
-    left: 5%;
+    position: absolute; top: 30%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-0 .ism-caption-1 {
