@@ -532,7 +532,7 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-slide-0 .ism-caption-0 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 30%;
+    position: absolute; top: 10%;
     left: 10%;
     border-radius: 4px;
     border: none;
@@ -542,230 +542,230 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-slide-0 .ism-caption-1 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 60%;
-    left: 40%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-0 .ism-caption-2 {
    /*font-size: 1.25em;*/
-    font-family: sans-serif;
-    position: absolute; top: 20%;
-    left: 60%;
-    border-radius: 4px;
-    border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+   font-family: sans-serif;
+   position: absolute; top: 10%;
+   left: 10%;
+   border-radius: 4px;
+   border: none;
+   color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-1 .ism-caption-0 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
     position: absolute; top: 10%;
-    left: 5%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-1 .ism-caption-1 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 60%;
-    left: 40%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-1 .ism-caption-2 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 20%;
-    left: 60%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-2 .ism-caption-0 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
     position: absolute; top: 10%;
-    left: 5%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-2 .ism-caption-1 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 60%;
-    left: 40%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-2 .ism-caption-2 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 20%;
-    left: 60%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-3 .ism-caption-0 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
     position: absolute; top: 10%;
-    left: 5%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-3 .ism-caption-1 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 60%;
-    left: 40%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-3 .ism-caption-2 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 20%;
-    left: 60%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-4 .ism-caption-0 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
     position: absolute; top: 10%;
-    left: 5%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-4 .ism-caption-1 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 60%;
-    left: 40%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-4 .ism-caption-2 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 20%;
-    left: 60%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-5 .ism-caption-0 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
     position: absolute; top: 10%;
-    left: 5%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-5 .ism-caption-1 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 60%;
-    left: 40%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-5 .ism-caption-2 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 20%;
-    left: 60%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-6 .ism-caption-0 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
     position: absolute; top: 10%;
-    left: 5%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-6 .ism-caption-1 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 60%;
-    left: 40%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-6 .ism-caption-2 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 20%;
-    left: 60%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-7 .ism-caption-0 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
     position: absolute; top: 10%;
-    left: 5%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(10, 10, 10, 0.7);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-7 .ism-caption-1 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 60%;
-    left: 40%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
 #my-slider .ism-slide-7 .ism-caption-2 {
     /*font-size: 1.25em;*/
     font-family: sans-serif;
-    position: absolute; top: 20%;
-    left: 60%;
+    position: absolute; top: 10%;
+    left: 10%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.70);
+    color: #0a0a0a; background-color: rgba(255, 255, 255, 0);
 }
 
